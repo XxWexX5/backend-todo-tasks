@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "todo_tasks",
+  "info": {
+    "singularName": "todo-task",
+    "pluralName": "todo-tasks",
+    "displayName": "todo-tasks",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "task": {
+      "type": "component",
+      "repeatable": false,
+      "component": "task.task",
+      "required": true
+    }
+  }
+}

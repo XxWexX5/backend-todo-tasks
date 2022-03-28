@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_header_main_header_mains",
+  "info": {
+    "displayName": "header_main",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "id_header": {
+      "type": "string",
+      "required": true
+    },
+    "image_header": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "text_header": {
+      "type": "string",
+      "required": true,
+      "default": "Important"
+    }
+  }
+}
